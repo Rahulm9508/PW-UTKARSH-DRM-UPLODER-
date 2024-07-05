@@ -27,11 +27,11 @@ DEF_FORMAT = "480"
 from dotenv import load_dotenv
 load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
-API_ID = 24119778
-API_HASH = "cca11ca97dd8683d65ca1beb62baceb1"
-BOT_TOKEN = "7208534557:AAH9zDoXCjMJkm8ahqsJTsljAzbeSe20Xic"
-AUTH_USERS = 7171191819
-sudo_users = [7171191819]
+API_ID = 20491966
+API_HASH = "aa1c8f86db7f78fe9bfdd77bb48a5b23"
+BOT_TOKEN = "6758326714:AAHhldSaXNGuLfhsm1DFcFzTbMMWQxKXsc0"
+AUTH_USERS = 7168441486
+sudo_users = [7168441486]
 STRING = "AQFwCeIAOz1FS7JecfYU8zMZdNCoey8c3cbpOlG0CmPPY9mXBXyG2C0_Uf83cWS_dI38I16qpCyuggIpwc2LrcYQtUXEbyjxtfRWl3jif61NDbq95dMqvSLJkYz6xGaPas5qCfMubSwdkxgaFc_ejU1A5Fglp4RsPKnH_G4OjF_wEUAzNiWn0PhTVlUT-au6thdjfR-hsPvGUnksl4bTRb4BfR0cFsh0X8Tg14_KGJRMBGUN2URG1PO1ATGpiFDPmUDFco2SwQIW6VadpUUROTUD70z0SnAvQ7aZMD7MvpovTdHO8YJVu0GiMT5qJZKtNGHUzKj4rdxiKdHoA0_9z5h2pIR20QAAAAGrb7QLAA"
 bot = Client(
     "bot",
